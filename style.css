@@ -56,12 +56,19 @@ body{
 .botao{
     background-color: #b164d4;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Cal Sans', sans-serif;
+    font-weight: 400;
     color: black;
-    font-size: 24px;
+    font-size: 28px;
     border-radius: 16px;
-    padding: 21.5px 93px;
+    padding: 19px 92px;
     text-decoration: none;
-    
+    cursor: pointer;
+    transition: background-color 0.2s;
+    transition: all 0.5s ease;
+}
+
+.botao:hover {
+    background-color: #8b35b3;
+    transform: scale(1.06);
 }
